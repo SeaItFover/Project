@@ -10,7 +10,22 @@ import java.io.File;
  */
 public class DirDemo03 {
     public static void main(String[] args) {
-        File src = new File("D:/ddd");
+        File src = new File("D:\\JAVA\\Idea\\Project\\IO");
+        printName(src,0);
+    }
+
+    public static void printName(File src, int deep){
+        for (int i = 0; i<=deep; i++){
+            System.out.print("-");
+        }
         System.out.println(src.getName());
+        if (src == null || !src.exists()){
+            return;
+        }else if(src.isDirectory()){
+            for (File s:src.listFiles()){
+                printName(s,deep+1);
+            }
+        }
+
     }
 }
