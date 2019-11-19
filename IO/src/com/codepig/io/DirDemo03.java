@@ -13,4 +13,16 @@ public class DirDemo03 {
         File src = new File("D:/ddd");
         System.out.println(src.getName());
     }
+
+    public static void printName(File src){
+        System.out.println(src.getName());
+        if (null == src || !src.exists()){
+            return;
+        }else{
+            for (File s:src.listFiles()){
+                printName(s);
+            }
+        }
+
+    }
 }

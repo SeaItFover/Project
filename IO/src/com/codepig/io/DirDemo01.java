@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class DirDemo01 {
     public static void main(String[] args) {
-        File dir = new File("D:/JAVA/Idea/Project/IO/src/com/codepig/io/dir/test");
+        File dir = new File("D:/IDEA/Project/IO/src/com/codepig/io/dir");
         //创建目录
         boolean flag = dir.mkdir();
         System.out.println(flag);
