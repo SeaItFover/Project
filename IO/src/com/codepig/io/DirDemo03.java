@@ -28,4 +28,16 @@ public class DirDemo03 {
         }
 
     }
+
+    public static void printName(File src){
+        System.out.println(src.getName());
+        if (null == src || !src.exists()){
+            return;
+        }else{
+            for (File s:src.listFiles()){
+                printName(s);
+            }
+        }
+
+    }
 }
