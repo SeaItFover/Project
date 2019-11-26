@@ -9,6 +9,7 @@ public class 四丶二维数组中的查找 {
         int[][] arr = new int[][]{{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
         boolean result = find(5, arr);
         System.out.println(result);
+
     }
 
     //    public static boolean find(int target,int[][] arr){
