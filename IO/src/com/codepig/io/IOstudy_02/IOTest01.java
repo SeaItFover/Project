@@ -25,6 +25,7 @@ public class IOTest01 {
             System.out.println((char)data1);
             System.out.println((char)data2);
             System.out.println((char)data3);
+            System.out.println((char)dara4);
             //4.释放资源
             is.close();
         } catch (FileNotFoundException e) {
