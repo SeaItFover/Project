@@ -19,7 +19,7 @@ public class ContentDecode {
         //1.字节数不够
         msg = new String(datas,0,datas.length-2,"utf8");
         System.out.println(msg);
-        msg = new String(datas,0,datas.length-1,"utf8");
+        msg = new String(datas,0,datas.length,"utf8");
         System.out.println(msg);
 
         //2.字符集不统一
