@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9b6090b-628c-4810-ba2b-9f306fc4c17a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWeb_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteArrayIO/ByteArrayInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteArrayIO/ByteArrayOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/CharIO/ReaderIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/CharIO/WriterIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/CommonsIO/IOTesto2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/CommonsIO/SizeOfFileAndDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring源码/src/com/codepig/ioc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/NewProducerConsumerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/OldProducerConsumerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法练习/算法练习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/IO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IO/IO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/spy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/aaa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/DirCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/DirCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/DirDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/DirDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/DirDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/DirDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/DirDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/DirDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/DirDemo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/DirDemo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/FileDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/FileDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/FileDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/FileDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/Excerise01.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/Excerise01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/IOTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/IOTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/IOTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/IOTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/IOTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/IOTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/IOTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/IOTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/IOstudy_02/TestRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/ByteIO/TestRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/PathDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/PathDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/codepig/io/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/codepig/io/FileClass/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/spy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA虚拟机/JAVA虚拟机.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA虚拟机/JAVA虚拟机.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/Java基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/Java基础.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java基础/src/com/codepig/Java的三大特性/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java基础/src/com/codepig/Java的三大特性/Encapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring源码/Spring源码.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring源码/Spring源码.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多线程/多线程.iml" beforeDir="false" afterPath="$PROJECT_DIR$/多线程/多线程.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/排序算法/排序算法.iml" beforeDir="false" afterPath="$PROJECT_DIR$/排序算法/排序算法.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/Spring源码/Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/DirDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/DirDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/DirDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/FileDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/FileDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/PathDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/IO/com/codepig/io/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/JAVA虚拟机/com/codepig/gc/EscapeDeadFinalize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Java基础/com/codepig/Java的三大特性/Encapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Java基础/com/codepig/Java的三大特性/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Java基础/com/codepig/常用类/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/com/ilove/exception/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/com/ilove/exception/SubClassException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/others/PrintMulitiplicationTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/others/SavaTableData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/others/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/others/TestStaticVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/others/利用反射越过泛型检测.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/位运算/TestNoSignal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/常用类/System/ArrayCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/Test/常用类/System/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/META-INF/多线程.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/adavanced/HappenBefore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/adavanced/MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/adavanced/TimerTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/adavanced/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/CoTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/CoTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Steamedbun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/SynContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Tv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/cooperation/Watcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/daemon/DaemonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/daemon/God.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/daemon/You.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/collable/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/practice/WebDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/torunnable/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/torunnable/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/torunnable/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/tothread/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/tothread/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/tothread/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/establish/tothread/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/example/Racer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/example/Web12306.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/lambda表达式/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/lambda表达式/推导.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/priority/PriorityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/HappyInstance/Cinema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/HappyInstance/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/HappyInstance/HappyCinema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/SafeWeb12306.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/SynBlock01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/SynDrawing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/SynTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/SynBlock01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/SynBlock02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/SynBlock03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/SynDrawingMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeSafeExamples/SynWeb123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/Drawing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/UnSafeTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/UnSafeTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/UnSafeTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/ThreeUnsafeExamples/UnSafeWeb12306.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/deadlock/DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/deadlock/LipStick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/deadlock/Makeup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/多线程/com/codepig/synchronize/deadlock/Mirror.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/bubblesort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/bubblesort/BubbleSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/bubblesort/BubbleSort3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/bubblesort/BubbleSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/insertsort/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/insertsort/InsertSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/insertsort/InsertSort3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/mergesort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/mergesort/MergeSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/mergesort/MergeSort3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/quicksort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/quicksort/QuickSort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/selectsort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/selectsort/SelectSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/shellsort/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/排序算法/com/codepig/shellsort/ShellSort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/三丶数组中重复的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/五丶替换字符串中的空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/六丶从尾到头打印链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/十丶斐波那契数列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/com/codepig/剑指offer/四丶二维数组中的查找.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/猪/递归/计算0到n的和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/线性结构/com/codepig/linkedlist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/线性结构/com/codepig/linkedlist/TestJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/线性结构/com/codepig/linkedlist/TestNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/线性结构/com/codepig/looplinkedlist/LoopNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/out/production/线性结构/com/codepig/looplinkedlist/TestNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/树/树.iml" beforeDir="false" afterPath="$PROJECT_DIR$/树/树.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线性结构/线性结构.iml" beforeDir="false" afterPath="$PROJECT_DIR$/线性结构/线性结构.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式/设计模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/设计模式.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie02.java" />
+        <option value="$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie.java" />
+        <option value="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/OldProducerConsumerModel.java" />
+        <option value="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance01.java" />
+        <option value="$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest02.java" />
+        <option value="$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest01.java" />
+        <option value="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance001.java" />
+        <option value="$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/NewProducerConsumerModel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-61" />
+    <option name="y" value="-13" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1532567" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JUC.ProducerConsumerModel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Idea\Project\多线程\src\JUC\ProducerConsumerModel" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NewProducerConsumerModel">
+    <configuration name="DecorateTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codepig.装饰器.DecorateTest01" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codepig.装饰器.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecorateTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codepig.装饰器.DecorateTest02" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codepig.装饰器.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Instance001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.ProducerConsumerModel.Instance001" />
+      <module name="多线程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.ProducerConsumerModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Instance01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.ProducerConsumerModel.Instance01" />
+      <module name="多线程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.ProducerConsumerModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewProducerConsumerModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.ProducerConsumerModel.NewProducerConsumerModel" />
+      <module name="多线程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.ProducerConsumerModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NewProducerConsumerModel" />
+        <item itemvalue="Application.Instance001" />
+        <item itemvalue="Application.DecorateTest01" />
+        <item itemvalue="Application.DecorateTest02" />
+        <item itemvalue="Application.Instance01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9b6090b-628c-4810-ba2b-9f306fc4c17a" name="Default Changelist" comment="" />
+      <created>1576022241827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576022241827</updated>
+      <workItem from="1576022251991" duration="13836000" />
+      <workItem from="1576540928667" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14419000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20199336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27140784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287858" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/OldProducerConsumerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/Instance001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/src/com/codepig/装饰器/DecorateTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/src/JUC/ProducerConsumerModel/NewProducerConsumerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaWeb/src/main/java/com/codepig/cookie/HttpCookie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>IO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
