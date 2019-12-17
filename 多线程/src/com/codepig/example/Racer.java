@@ -1,5 +1,11 @@
 package com.codepig.example;
 
+/**
+ * 线程操作资源类
+ * 线程：Thread t1 = new Thread(racer,"rabbit");
+ * 操作：放在了资源类中，由资源类实现Runnable接口的run方法。
+ * 资源类：Racer
+ */
 public class Racer implements Runnable {
     private static String winner;
     @Override
